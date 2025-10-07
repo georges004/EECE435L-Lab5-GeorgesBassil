@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from src.db import (
+from db import (
     create_db_table,
     get_users,
     get_user_by_id,
